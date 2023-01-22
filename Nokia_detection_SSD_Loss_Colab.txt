@@ -1,0 +1,12 @@
+INFO:tensorflow:Step 3000 per-step time 3.764s
+I0118 00:53:14.829404 28664 model_lib_v2.py:698] Step 3000 per-step time 3.764s
+INFO:tensorflow:{'Loss/classification_loss': 0.06465255,
+ 'Loss/localization_loss': 0.020316634,
+ 'Loss/regularization_loss': 0.14996694,
+ 'Loss/total_loss': 0.23493612,
+ 'learning_rate': 0.0}
+I0118 00:53:14.830404 28664 model_lib_v2.py:701] {'Loss/classification_loss': 0.06465255,
+ 'Loss/localization_loss': 0.020316634,
+ 'Loss/regularization_loss': 0.14996694,
+ 'Loss/total_loss': 0.23493612,
+ 'learning_rate': 0.0}

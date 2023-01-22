@@ -1,0 +1,11 @@
+I1228 15:28:15.781091 140099612166016 model_lib_v2.py:707] Step 2000 per-step time 1.905s
+INFO:tensorflow:{'Loss/classification_loss': 0.069223925,
+ 'Loss/localization_loss': 0.020430336,
+ 'Loss/regularization_loss': 0.1900635,
+ 'Loss/total_loss': 0.27971774,
+ 'learning_rate': nan}
+I1228 15:28:15.781466 140099612166016 model_lib_v2.py:708] {'Loss/classification_loss': 0.069223925,
+ 'Loss/localization_loss': 0.020430336,
+ 'Loss/regularization_loss': 0.1900635,
+ 'Loss/total_loss': 0.27971774,
+ 'learning_rate': nan}
