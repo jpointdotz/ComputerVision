@@ -7,3 +7,5 @@ Repo consists:
  - Some videos of working with ArUco markers. 
  
  - You can see some scripts in "Scripts" folder. 
+ 
+ - Passenger detections - Detection of passengers through the HOG OpenCV function to quick detect human body with some tweaks (changed padding, definition of ROI to get good precision by keeping input dimension for HOG, ...). Considered two additional tasks: Kalman's tracking and/or object classification of ROI (decreased size for classificator, to be trained by transfer learing on top of some pre-trained DNNs to recognize humans behaviour). 
