@@ -1,5 +1,7 @@
 Repo consists:
 
+- Detection of pose on bicycle to perform proper fitting for video with kinematics movements - so called dynamic fitting analysis. Output with video file, summary table and min/max positions of particular angles. 
+
 - Detection of pose on bicycle to perform proper fitting. Script uses Mediapipe library and OpenCV functions. Now only for static pictures, video ongoing.
 
  - Some results of Object detection trained models. I was using standard TF object detection API (https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/#) and training done locally or on Google Colab. The data to create the dataset has been collected manually from internet (Fork lift) but as well by taking the pictures manually (Ford, Gesture and Nokia) in order to better understand what works, what not, and what type of data is suitable for convolution filters when dataset is hard to find. Transfer learning has been done on top of Single Shot Mobilenet V2 FPNLite 640x640 DNN which works the best for me. I "played" as well with Faster R-CNN, Mask R-CNN and Detectron, however "live on camera" detection was too slow for my HW. I was using Yolo v5 along to Mediapipe (hand detection in my case) to detect the mechanical part along with hand position exact position during assembly of parts. The results are obviously not shown - part is not in production. The internal project has been stopped.  
